@@ -1,3 +1,8 @@
+/*
+240541612
+Amr Mohammed 
+11.12.2025
+ */
 import java.util.Scanner; // Kullanıcıdan veri almak için gerekli kütüphane
 
        class DatePrinterInput {
