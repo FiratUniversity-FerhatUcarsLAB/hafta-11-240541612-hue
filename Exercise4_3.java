@@ -22,3 +22,22 @@ public class Exercise4_3 {
         System.out.println(".");
     }
 }
+/*
+STACK DIAGRAM (ping() ilk çağrıldığında):
+
+------------------------
+|      ping()          |
+------------------------
+|      baffle()        |
+------------------------
+|      zoop()          |
+------------------------
+|      main()          |
+------------------------
+
+PROGRAM OUTPUT:
+
+No, I wug.
+You wugga wug.
+I wug.
+*/
