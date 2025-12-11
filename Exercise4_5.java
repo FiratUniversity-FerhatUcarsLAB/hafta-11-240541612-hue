@@ -25,3 +25,23 @@ public class Exercise4_5 {
         System.out.println("any " + strangStrung + "more ");
     }
 }
+/*
+1) zoop metodu ikinci kez çağrıldığında Stack Diagram:
+
+------------------------------
+|   zoop("breakfast ", 4)    |
+------------------------------
+|        clink(4)            |
+------------------------------
+|        main()              |
+------------------------------
+
+
+2) Programın ürettiği tam çıktı:
+
+just for
+any not more 
+It's breakfast 
+!
+
+*/
