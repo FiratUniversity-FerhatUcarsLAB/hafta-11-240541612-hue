@@ -10,12 +10,18 @@ public class Exercise4_4 {
 
     public static void main(String[] args) {
 
-        // 1) Donus degerini kullanmayin -> ne oluyor?
+       // 1) Donus degerini kullanmayin -> ne oluyor?
+        // getNumber() cagrilir fakat donus degeri (42) kullanilmadigi icin sadece yok sayilir.
+        // Program normal calisir, hata vermez.
+
         getNumber();
 
-        // 2) void metodu ifade icinde kullanin -> ne oluyor?
-        // System.out.println(sayHello() + 7);
+       // 2) void metodu ifade icinde kullanin -> ne oluyor?
+        // sayHello() void oldugu icin ifade icinde kullanilamaz.
+        // System.out.println(sayHello() + 7); yazilirsa derleme hatasi olur:
+        // "void cannot be dereferenced"
 
         // Cevaplarinizi yorum olarak ekleyin.
+        
     }
 }
